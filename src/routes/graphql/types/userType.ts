@@ -3,7 +3,7 @@ import { UUIDType } from "./uuid.js";
 import { PostType } from "./postType.js";
 import { ProfileType } from "./profileType.js";
 
-export const UserType = new GraphQLObjectType({
+export const UserType: GraphQLObjectType = new GraphQLObjectType({
   name: "User",
   fields: () => ({
   id: { type: new GraphQLNonNull(UUIDType)},

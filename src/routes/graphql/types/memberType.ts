@@ -1,6 +1,6 @@
 import { GraphQLObjectType, GraphQLNonNull, GraphQLFloat, GraphQLInt, GraphQLEnumType } from "graphql";
 
-export const MemberTypeId = new GraphQLEnumType({
+export const MemberTypeId: GraphQLEnumType = new GraphQLEnumType({
   name: "MemberTypeId",
   values: {
     BASIC: {value: "BASIC"},
@@ -8,7 +8,7 @@ export const MemberTypeId = new GraphQLEnumType({
   }
 })
 
-export const MemberType = new GraphQLObjectType({
+export const MemberType: GraphQLObjectType = new GraphQLObjectType({
   name: "MemberType",
   fields: {
     id: { type: new GraphQLNonNull(MemberTypeId)},

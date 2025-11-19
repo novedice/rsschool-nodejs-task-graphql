@@ -1,5 +1,5 @@
 {
-  "date": "2025-11-19T11:48:15.700Z",
+  "date": "2025-11-19T22:11:16.879Z",
   "argv": [
     "/Users/natalia/.nvm/versions/node/v22.20.0/bin/node",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/test/routes/gql-queries.test.js"
@@ -15,10 +15,10 @@
   ],
   "NODE_OPTIONS": "\"--import=file:///Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/dist/esm/import.mjs\"",
   "cwd": "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql",
-  "pid": 45625,
-  "ppid": 45610,
+  "pid": 85912,
+  "ppid": 85905,
   "parent": null,
-  "uuid": "e7a52f32-1bda-4214-a1d3-5041b22ff102",
+  "uuid": "181392c1-a366-424b-97af-20932889545a",
   "files": [
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/test/routes/gql-queries.test.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/typescript/dist/esm/import.mjs",
@@ -43,23 +43,23 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/resolve-conditional-value.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/resolve-import.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/is-windows.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/get-conditional-values-list.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/stack/dist/esm/parse.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/get-named-exports-list.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/read-pkg.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/resolve-export.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/errors.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/get-named-exports-list.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/read-pkg.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/star-glob.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/to-path.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/get-conditional-values-list.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/stack/dist/esm/parse.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/file-exists.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/find-dep-package.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/to-file-url.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/resolve-package-import.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/resolve-dependency-export.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/node_modules/glob/dist/esm/index.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/read-json.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/find-star-match.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/resolve-package-import.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/walk-up-path/dist/esm/index.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/find-star-match.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/read-json.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/node_modules/glob/dist/esm/index.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/node_modules/minimatch/dist/esm/index.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/node_modules/glob/dist/esm/glob.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/node_modules/glob/dist/esm/has-magic.js",
@@ -89,6 +89,8 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@fastify/type-provider-typebox/dist/esm/index.mjs",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/index.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/test/dist/esm/index.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/test/test-built/dist/esm/index.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/test/dist/esm/default-plugins.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/tap-file.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/base.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/counts.js",
@@ -107,18 +109,6 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/waiter.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/worker.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/tap.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/test/test-built/dist/esm/index.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/test/dist/esm/default-plugins.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/diags.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/esc.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/throw-to-parser.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/async-hook-domain/dist/mjs/index.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/index.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/message-from-error.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/dist/esm/index.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/is-actual-promise/dist/esm/index.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/trivial-deferred/dist/mjs/index.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/implicit-end-sigil.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/after/dist/esm/index.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/after-each/dist/esm/index.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/asserts/dist/esm/index.js",
@@ -136,18 +126,16 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/typescript/dist/esm/index.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/worker/dist/esm/index.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/jackspeak/dist/esm/index.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/index.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/clean-yaml-object.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/final-results.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/line-type.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/parse-directive.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/plan.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/result.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/statics.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/escape.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/dist/esm/child_process.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/dist/esm/process-info-node.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/dist/esm/json-file.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/throw-to-parser.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/async-hook-domain/dist/mjs/index.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/index.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/diags.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/message-from-error.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/dist/esm/index.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/is-actual-promise/dist/esm/index.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/trivial-deferred/dist/mjs/index.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/esc.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/implicit-end-sigil.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/function-loop/dist/mjs/index.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tcompare/dist/esm/index.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/asserts/dist/esm/normalize-throws-args.js",
@@ -158,12 +146,18 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/snapshot/dist/esm/clean-cwd.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/snapshot/dist/esm/provider.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@isaacs/cliui/index.mjs",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/final-plan.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/parse.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/stringify.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/node_modules/diff/libesm/index.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/brace-patterns.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/dist/esm/spawn-opts.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/index.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/final-results.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/line-type.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/parse-directive.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/plan.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/result.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/statics.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/escape.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/dist/esm/child_process.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/dist/esm/process-info-node.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/dist/esm/json-file.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/clean-yaml-object.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tcompare/dist/esm/format.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tcompare/dist/esm/has-strict.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tcompare/dist/esm/has.js",
@@ -195,6 +189,44 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@isaacs/cliui/node_modules/string-width/index.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@isaacs/cliui/node_modules/strip-ansi/index.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@isaacs/cliui/node_modules/wrap-ansi/index.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/parse.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/stringify.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/final-plan.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/brace-patterns.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/dist/esm/spawn-opts.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/fix-eperm.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/fs.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/ignore-enoent.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/readdir-or-error.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/retry-busy.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/node_modules/diff/libesm/index.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tcompare/node_modules/diff/libesm/index.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tcompare/dist/esm/react-element-to-jsx-string.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/minimatch/dist/esm/index.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/glob/dist/esm/glob.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/glob/dist/esm/has-magic.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/glob/dist/esm/ignore.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/default-tmp.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/error.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@isaacs/cliui/node_modules/ansi-regex/index.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/mkdirp-manual.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/mkdirp-native.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/opts-arg.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/path-arg.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/use-native.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/error-serdes/dist/esm/serialize.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/error-serdes/dist/esm/deserialize.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/error-serdes/dist/esm/test-stream-serialize.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/error-serdes/dist/esm/test-stream-deserialize.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/error-serdes/dist/esm/messages.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/error-serdes/dist/esm/constants.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/loc-from-at.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/test-nested-location.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/test-message-data.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/test-point-message-data.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/test-point-results.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/test-results.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@isaacs/cliui/node_modules/ansi-styles/index.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/types/index.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/node_modules/diff/libesm/diff/base.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/node_modules/diff/libesm/diff/character.js",
@@ -210,44 +242,6 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/node_modules/diff/libesm/patch/create.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/node_modules/diff/libesm/convert/dmp.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/node_modules/diff/libesm/convert/xml.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tcompare/node_modules/diff/libesm/index.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tcompare/dist/esm/react-element-to-jsx-string.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/minimatch/dist/esm/index.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/glob/dist/esm/glob.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/glob/dist/esm/has-magic.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/glob/dist/esm/ignore.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/default-tmp.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/ignore-enoent.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/fs.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/readdir-or-error.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/fix-eperm.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/error.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/error-serdes/dist/esm/serialize.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/error-serdes/dist/esm/deserialize.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/error-serdes/dist/esm/test-stream-serialize.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/error-serdes/dist/esm/test-stream-deserialize.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/error-serdes/dist/esm/messages.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/error-serdes/dist/esm/constants.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/loc-from-at.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/test-nested-location.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/retry-busy.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/types/date.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/types/timestamp.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/mkdirp-manual.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/mkdirp-native.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/opts-arg.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/path-arg.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/use-native.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/test-message-data.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/test-point-message-data.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/test-point-results.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/test-results.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@isaacs/cliui/node_modules/ansi-regex/index.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@isaacs/cliui/node_modules/ansi-styles/index.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/node_modules/diff/libesm/util/string.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/node_modules/diff/libesm/util/params.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/node_modules/diff/libesm/patch/line-endings.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/node_modules/diff/libesm/util/distance-iterator.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tcompare/node_modules/diff/libesm/diff/base.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tcompare/node_modules/diff/libesm/diff/character.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tcompare/node_modules/diff/libesm/diff/word.js",
@@ -268,9 +262,15 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/minimatch/dist/esm/unescape.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/glob/dist/esm/pattern.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/glob/dist/esm/walker.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/loc-from-callsite.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/find-made.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/loc-from-callsite.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/result-to-error.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/types/date.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/types/timestamp.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/node_modules/diff/libesm/util/string.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/node_modules/diff/libesm/util/params.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/node_modules/diff/libesm/patch/line-endings.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/node_modules/diff/libesm/util/distance-iterator.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tcompare/node_modules/diff/libesm/util/string.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tcompare/node_modules/diff/libesm/util/params.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tcompare/node_modules/diff/libesm/patch/line-endings.js",
@@ -285,24 +285,24 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/plugins/sensible.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/plugins/swagger.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/index.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/profiles/index.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/member-types/index.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/profiles/index.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/posts/index.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/index.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/stats/index.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/posts/index.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/subscribed-to-user/index.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/index.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/profile/index.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/subscribed-to-user/index.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/posts/index.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/user-subscribed-to/index.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/schemas.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/graphQLSchema.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/posts/schemas.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/member-types/schemas.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/profiles/schemas.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/posts/schemas.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/member-types/schemas.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/posts/schemas.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/schemas.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/profile/schemas.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/posts/schemas.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/stats/schemas.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/profile/schemas.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/user-subscribed-to/schemas.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/mutations/mutations.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/queries/queries.js",
@@ -313,7 +313,12 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/inputs/postInput.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/inputs/profileInput.js",
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/inputs/userInput.js",
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/types/memberType.js"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/resolvers/userResolvers.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/resolvers/profileResolvers.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/resolvers/postsResolvers.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/resolvers/subscribeResolvers.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/types/memberType.js",
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/resolvers/memberTypeResolvers.js"
   ],
   "sources": {
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/typescript/dist/esm/import.mjs": [
@@ -376,11 +381,11 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/is-windows.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/src/is-windows.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/get-conditional-values-list.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/src/get-conditional-values-list.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/resolve-export.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/src/resolve-export.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/stack/dist/esm/parse.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/stack/src/parse.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/errors.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/src/errors.ts"
     ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/get-named-exports-list.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/src/get-named-exports-list.ts"
@@ -388,17 +393,17 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/read-pkg.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/src/read-pkg.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/resolve-export.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/src/resolve-export.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/errors.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/src/errors.ts"
-    ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/star-glob.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/src/star-glob.ts"
     ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/to-path.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/src/to-path.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/get-conditional-values-list.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/src/get-conditional-values-list.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/stack/dist/esm/parse.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/stack/src/parse.ts"
     ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/file-exists.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/src/file-exists.ts"
@@ -409,23 +414,23 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/to-file-url.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/src/to-file-url.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/resolve-package-import.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/src/resolve-package-import.ts"
-    ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/resolve-dependency-export.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/src/resolve-dependency-export.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/node_modules/glob/dist/esm/index.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/node_modules/glob/src/index.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/resolve-package-import.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/src/resolve-package-import.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/read-json.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/src/read-json.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/walk-up-path/dist/esm/index.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/walk-up-path/src/index.ts"
     ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/find-star-match.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/src/find-star-match.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/walk-up-path/dist/esm/index.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/walk-up-path/src/index.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/dist/esm/read-json.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/src/read-json.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/node_modules/glob/dist/esm/index.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/node_modules/glob/src/index.ts"
     ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/node_modules/minimatch/dist/esm/index.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/resolve-import/node_modules/minimatch/src/index.ts"
@@ -490,6 +495,12 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/test/dist/esm/index.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/test/src/index.ts"
     ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/test/test-built/dist/esm/index.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/test/test-built/src/index.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/test/dist/esm/default-plugins.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/test/src/default-plugins.ts"
+    ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/tap-file.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/src/tap-file.ts"
     ],
@@ -544,42 +555,6 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/tap.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/src/tap.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/test/test-built/dist/esm/index.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/test/test-built/src/index.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/test/dist/esm/default-plugins.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/test/src/default-plugins.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/diags.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/src/diags.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/esc.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/src/esc.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/throw-to-parser.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/src/throw-to-parser.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/async-hook-domain/dist/mjs/index.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/async-hook-domain/src/index.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/index.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/src/index.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/message-from-error.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/src/message-from-error.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/dist/esm/index.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/src/index.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/is-actual-promise/dist/esm/index.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/is-actual-promise/src/index.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/trivial-deferred/dist/mjs/index.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/trivial-deferred/src/index.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/implicit-end-sigil.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/src/implicit-end-sigil.ts"
-    ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/after/dist/esm/index.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/after/src/index.ts"
     ],
@@ -631,41 +606,35 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/jackspeak/dist/esm/index.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/jackspeak/src/index.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/final-results.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/src/final-results.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/throw-to-parser.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/src/throw-to-parser.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/line-type.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/src/line-type.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/async-hook-domain/dist/mjs/index.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/async-hook-domain/src/index.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/index.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/src/index.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/index.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/src/index.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/clean-yaml-object.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/src/clean-yaml-object.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/dist/esm/index.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/src/index.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/parse-directive.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/src/parse-directive.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/diags.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/src/diags.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/plan.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/src/plan.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/message-from-error.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/src/message-from-error.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/result.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/src/result.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/is-actual-promise/dist/esm/index.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/is-actual-promise/src/index.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/statics.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/src/statics.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/trivial-deferred/dist/mjs/index.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/trivial-deferred/src/index.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/escape.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/src/escape.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/esc.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/src/esc.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/dist/esm/child_process.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/src/child_process.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/dist/esm/process-info-node.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/src/process-info-node.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/dist/esm/json-file.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/src/json-file.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/implicit-end-sigil.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/src/implicit-end-sigil.ts"
     ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/function-loop/dist/mjs/index.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/function-loop/src/index.ts"
@@ -694,20 +663,41 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/snapshot/dist/esm/provider.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/snapshot/src/provider.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/final-plan.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/src/final-plan.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/index.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/src/index.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/parse.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/src/parse.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/final-results.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/src/final-results.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/stringify.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/src/stringify.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/line-type.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/src/line-type.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/brace-patterns.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/src/brace-patterns.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/parse-directive.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/src/parse-directive.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/dist/esm/spawn-opts.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/src/spawn-opts.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/plan.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/src/plan.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/result.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/src/result.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/statics.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/src/statics.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/escape.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/src/escape.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/dist/esm/child_process.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/src/child_process.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/dist/esm/process-info-node.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/src/process-info-node.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/dist/esm/json-file.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/src/json-file.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/dist/esm/clean-yaml-object.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/core/src/clean-yaml-object.ts"
     ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tcompare/dist/esm/format.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tcompare/src/format.ts"
@@ -754,15 +744,6 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/rimraf-move-remove.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/src/rimraf-move-remove.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/error-serdes/dist/esm/index.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/error-serdes/src/index.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/comment.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/src/comment.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/on-add.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/src/on-add.ts"
-    ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/rimraf-native.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/src/rimraf-native.ts"
     ],
@@ -772,11 +753,23 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/rimraf-windows.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/src/rimraf-windows.ts"
     ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/snapshot/dist/esm/require.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/snapshot/src/require.ts"
+    ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/use-native.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/src/use-native.ts"
     ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/index.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/src/index.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/error-serdes/dist/esm/index.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/error-serdes/src/index.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/comment.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/src/comment.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/on-add.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/src/on-add.ts"
     ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/print-messages.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/src/print-messages.ts"
@@ -787,11 +780,35 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/test-map.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/src/test-map.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/snapshot/dist/esm/require.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/snapshot/src/require.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/parse.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/src/parse.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/types/index.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/src/types/index.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/stringify.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/src/stringify.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/final-plan.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/src/final-plan.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/dist/esm/brace-patterns.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-parser/src/brace-patterns.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/dist/esm/spawn-opts.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/processinfo/src/spawn-opts.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/fix-eperm.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/src/fix-eperm.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/fs.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/src/fs.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/ignore-enoent.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/src/ignore-enoent.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/readdir-or-error.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/src/readdir-or-error.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/retry-busy.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/src/retry-busy.ts"
     ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tcompare/dist/esm/react-element-to-jsx-string.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tcompare/src/react-element-to-jsx-string.ts"
@@ -811,20 +828,23 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/default-tmp.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/src/default-tmp.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/ignore-enoent.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/src/ignore-enoent.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/fs.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/src/fs.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/readdir-or-error.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/src/readdir-or-error.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/fix-eperm.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/src/fix-eperm.ts"
-    ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/error.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/src/error.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/mkdirp-manual.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/src/mkdirp-manual.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/mkdirp-native.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/src/mkdirp-native.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/opts-arg.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/src/opts-arg.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/path-arg.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/src/path-arg.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/use-native.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/src/use-native.ts"
     ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/error-serdes/dist/esm/serialize.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/error-serdes/src/serialize.ts"
@@ -850,30 +870,6 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/test-nested-location.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/src/test-nested-location.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/dist/esm/retry-busy.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/rimraf/src/retry-busy.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/types/date.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/src/types/date.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/types/timestamp.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/src/types/timestamp.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/mkdirp-manual.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/src/mkdirp-manual.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/mkdirp-native.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/src/mkdirp-native.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/opts-arg.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/src/opts-arg.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/path-arg.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/src/path-arg.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/use-native.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/src/use-native.ts"
-    ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/test-message-data.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/src/test-message-data.ts"
     ],
@@ -885,6 +881,9 @@
     ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/test-results.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/src/test-results.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/types/index.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/src/types/index.ts"
     ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/minimatch/dist/esm/assert-valid-pattern.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/minimatch/src/assert-valid-pattern.ts"
@@ -904,14 +903,20 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/glob/dist/esm/walker.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/glob/src/walker.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/loc-from-callsite.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/src/loc-from-callsite.ts"
-    ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/dist/mjs/find-made.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/mkdirp/src/find-made.ts"
     ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/loc-from-callsite.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/src/loc-from-callsite.ts"
+    ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/dist/esm/result-to-error.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/node-serialize/src/result-to-error.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/types/date.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/src/types/date.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/dist/esm/types/timestamp.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/tap-yaml/src/types/timestamp.ts"
     ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/minimatch/dist/esm/brace-expressions.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/node_modules/@tapjs/fixture/node_modules/minimatch/src/brace-expressions.ts"
@@ -943,29 +948,29 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/index.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/graphql/index.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/profiles/index.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/profiles/index.ts"
-    ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/member-types/index.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/member-types/index.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/profiles/index.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/profiles/index.ts"
     ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/posts/index.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/posts/index.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/index.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/users/index.ts"
-    ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/stats/index.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/stats/index.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/posts/index.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/users/_userId/posts/index.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/index.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/users/index.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/profile/index.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/users/_userId/profile/index.ts"
     ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/subscribed-to-user/index.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/users/_userId/subscribed-to-user/index.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/profile/index.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/users/_userId/profile/index.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/posts/index.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/users/_userId/posts/index.ts"
     ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/user-subscribed-to/index.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/users/_userId/user-subscribed-to/index.ts"
@@ -976,26 +981,26 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/graphQLSchema.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/graphql/graphQLSchema.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/posts/schemas.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/posts/schemas.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/profiles/schemas.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/profiles/schemas.ts"
     ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/member-types/schemas.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/member-types/schemas.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/profiles/schemas.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/profiles/schemas.ts"
-    ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/posts/schemas.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/users/_userId/posts/schemas.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/posts/schemas.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/posts/schemas.ts"
     ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/schemas.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/users/schemas.ts"
     ],
-    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/profile/schemas.js": [
-      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/users/_userId/profile/schemas.ts"
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/posts/schemas.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/users/_userId/posts/schemas.ts"
     ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/stats/schemas.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/stats/schemas.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/profile/schemas.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/users/_userId/profile/schemas.ts"
     ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/users/_userId/user-subscribed-to/schemas.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/users/_userId/user-subscribed-to/schemas.ts"
@@ -1027,15 +1032,30 @@
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/inputs/userInput.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/graphql/inputs/userInput.ts"
     ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/resolvers/userResolvers.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/graphql/resolvers/userResolvers.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/resolvers/profileResolvers.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/graphql/resolvers/profileResolvers.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/resolvers/postsResolvers.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/graphql/resolvers/postsResolvers.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/resolvers/subscribeResolvers.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/graphql/resolvers/subscribeResolvers.ts"
+    ],
     "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/types/memberType.js": [
       "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/graphql/types/memberType.ts"
+    ],
+    "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/dist/routes/graphql/resolvers/memberTypeResolvers.js": [
+      "/Users/natalia/Desktop/nodejs_q4_2025/rsschool-nodejs-task-graphql/src/routes/graphql/resolvers/memberTypeResolvers.ts"
     ]
   },
-  "root": "e7a52f32-1bda-4214-a1d3-5041b22ff102",
+  "root": "181392c1-a366-424b-97af-20932889545a",
   "externalID": "test/routes/gql-queries.test.js",
   "code": 1,
   "signal": null,
-  "runtime": 784.187167,
+  "runtime": 785.700542,
   "globalsAdded": [
     "NODE_CLIENT"
   ]

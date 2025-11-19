@@ -20,18 +20,18 @@ export const userResolver = {
     return contextValue.prisma.user.findMany()
   },
   user: async (_parent, args: argsType, contextValue: contextType): Promise < User | null > => {
-    return contextValue.prisma.user.findUnique({ where: {id: args.id } });
+    return contextValue.prisma.user.findUnique({ where: { id: args.id } });
   },
   createUser: async (_parent, args: argsCreateUserInput, contextValue: contextType): Promise<User> => {
-    return contextValue.prisma.user.create({data: args.input})
+    return contextValue.prisma.user.create({ data: args.input })
   },
   changeUser: async (_parent, args: argsChangeUserInput, contextValue: contextType):  Promise<User> => {
     return contextValue.prisma.user.update({
       data: args.input,
-      where: {id: args.id}
+      where: { id: args.id }
     })
   },
   deleteUser: async (_parent, args: argsType, contextValue: contextType) => {
-    return contextValue.prisma.user.delete({ where: {id: args.id} })
+    return contextValue.prisma.user.delete({ where: { id: args.id } })
   }
 }

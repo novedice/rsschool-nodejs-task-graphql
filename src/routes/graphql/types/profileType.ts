@@ -2,7 +2,7 @@ import { GraphQLObjectType, GraphQLNonNull, GraphQLBoolean, GraphQLInt } from "g
 import { UUIDType } from "./uuid.js";
 import { MemberType } from "./memberType.js";
 
-export const ProfileType = new GraphQLObjectType({
+export const ProfileType: GraphQLObjectType = new GraphQLObjectType({
   name: "Profile",
   fields: {
     id: { type: new GraphQLNonNull(UUIDType)},

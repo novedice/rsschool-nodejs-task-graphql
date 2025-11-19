@@ -1,11 +1,7 @@
 import { MemberType } from "@prisma/client";
-import { contextType } from "../types/contextType.js";
+import { argsMemberType, contextType } from "../types/contextType.js";
 
-interface argsMemberType {
-  id: string
-}
-
-export const memberTypeResolver = {
+export const memberTypeResolvers = {
   memberTypes: async (_parent, _args, contextValue: contextType): Promise<MemberType[]> => {
     return contextValue.prisma.memberType.findMany()
   },

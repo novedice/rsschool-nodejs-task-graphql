@@ -1,0 +1,313 @@
+TAP version 14
+# Subtest: gql-mutations
+    # Subtest: Create resources.
+        not ok 1 - Cannot read properties of undefined (reading 'createPost')
+          ---
+          stack: |
+            Test.<anonymous> (test/routes/gql-mutations.test.js:49:64)
+          at:
+            fileName: test/routes/gql-mutations.test.js
+            lineNumber: 49
+            columnNumber: 64
+            typeName: Test
+            methodName: <anonymous>
+            functionName: Test.<anonymous>
+          type: TypeError
+          tapCaught: returnedPromiseRejection
+          source: >2
+                });
+          
+                const { body: foundCreatedPost } = await getPost(app, data.createPost.id);
+            ---------------------------------------------------------------^
+                const { body: foundCreatedUser } = await getUser(app, data.createUser.id);
+                const { body: foundCreatedProfile } = await getProfile(app, data.createProfile.id);
+          ...
+        
+        1..1
+    not ok 1 - Create resources. # time=33.772ms
+      ---
+      at:
+        fileName: test/routes/gql-mutations.test.js
+        lineNumber: 25
+        columnNumber: 11
+        typeName: Test
+      source: |2
+          const app = await build(t);
+      
+          await t.test('Create resources.', async (t) => {
+        ----------^
+            const { body: user1 } = await createUser(app);
+      ...
+    
+    # Subtest: Create profile => fail; invalid dto.yearOfBirth.
+        not ok 1 - should be equal
+          ---
+          at:
+            fileName: test/routes/gql-mutations.test.js
+            lineNumber: 76
+            columnNumber: 7
+            typeName: Test
+          stack: |
+            Test.<anonymous> (test/routes/gql-mutations.test.js:76:7)
+          source: |2
+                });
+          
+                t.ok(errors.length === 1);
+            ------^
+                const message = errors[0].message;
+                t.ok(message.includes(`Int cannot represent non-integer value: 123.321`));
+          ...
+        
+        not ok 2 - should be equal
+          ---
+          at:
+            fileName: test/routes/gql-mutations.test.js
+            lineNumber: 78
+            columnNumber: 7
+            typeName: Test
+          stack: |
+            Test.<anonymous> (test/routes/gql-mutations.test.js:78:7)
+          source: |2
+                t.ok(errors.length === 1);
+                const message = errors[0].message;
+                t.ok(message.includes(`Int cannot represent non-integer value: 123.321`));
+            ------^
+              });
+          ...
+        
+        1..2
+    not ok 2 - Create profile => fail; invalid dto.yearOfBirth. # time=3.829ms
+      ---
+      at:
+        fileName: test/routes/gql-mutations.test.js
+        lineNumber: 59
+        columnNumber: 11
+        typeName: Test
+      source: >2
+          });
+      
+          await t.test('Create profile => fail; invalid dto.yearOfBirth.', async (t) => {
+        ----------^
+            const {
+              body: { errors },
+      ...
+    
+    # Subtest: Delete resources by id.
+        not ok 1 - should be equal
+          ---
+          at:
+            fileName: test/routes/gql-mutations.test.js
+            lineNumber: 106
+            columnNumber: 7
+            typeName: Test
+          stack: |
+            Test.<anonymous> (test/routes/gql-mutations.test.js:106:7)
+          source: |2
+                const { body: foundCreatedProfile } = await getProfile(app, profile1.id);
+          
+                t.ok(!errors);
+            ------^
+                t.ok(foundDeletedPost === null);
+                t.ok(foundCreatedUser === null);
+          ...
+        
+        ok 2 - should be equal
+        not ok 3 - should be equal
+          ---
+          at:
+            fileName: test/routes/gql-mutations.test.js
+            lineNumber: 108
+            columnNumber: 7
+            typeName: Test
+          stack: |
+            Test.<anonymous> (test/routes/gql-mutations.test.js:108:7)
+          source: |2
+                t.ok(!errors);
+                t.ok(foundDeletedPost === null);
+                t.ok(foundCreatedUser === null);
+            ------^
+                t.ok(foundCreatedProfile === null);
+              });
+          ...
+        
+        not ok 4 - should be equal
+          ---
+          at:
+            fileName: test/routes/gql-mutations.test.js
+            lineNumber: 109
+            columnNumber: 7
+            typeName: Test
+          stack: |
+            Test.<anonymous> (test/routes/gql-mutations.test.js:109:7)
+          source: |2
+                t.ok(foundDeletedPost === null);
+                t.ok(foundCreatedUser === null);
+                t.ok(foundCreatedProfile === null);
+            ------^
+              });
+          ...
+        
+        1..4
+    not ok 3 - Delete resources by id. # time=13.114ms
+      ---
+      at:
+        fileName: test/routes/gql-mutations.test.js
+        lineNumber: 81
+        columnNumber: 11
+        typeName: Test
+      source: |2
+          });
+      
+          await t.test('Delete resources by id.', async (t) => {
+        ----------^
+            const { body: user1 } = await createUser(app);
+            const { body: post1 } = await createPost(app, user1.id);
+      ...
+    
+    # Subtest: Change resources by id.
+        not ok 1 - Cannot read properties of undefined (reading 'changePost')
+          ---
+          stack: |
+            Test.<anonymous> (test/routes/gql-mutations.test.js:147:64)
+          at:
+            fileName: test/routes/gql-mutations.test.js
+            lineNumber: 147
+            columnNumber: 64
+            typeName: Test
+            methodName: <anonymous>
+            functionName: Test.<anonymous>
+          type: TypeError
+          tapCaught: returnedPromiseRejection
+          source: >2
+                });
+          
+                const { body: foundChangedPost } = await getPost(app, data.changePost.id);
+            ---------------------------------------------------------------^
+                const { body: foundChangedUser } = await getUser(app, data.changeUser.id);
+                const { body: foundChangedProfile } = await getProfile(app, data.changeProfile.id);
+          ...
+        
+        1..1
+    not ok 4 - Change resources by id. # time=5.846ms
+      ---
+      at:
+        fileName: test/routes/gql-mutations.test.js
+        lineNumber: 112
+        columnNumber: 11
+        typeName: Test
+      source: |2
+          });
+      
+          await t.test('Change resources by id.', async (t) => {
+        ----------^
+            const { body: user1 } = await createUser(app);
+            const { body: post1 } = await createPost(app, user1.id);
+      ...
+    
+    # Subtest: Change profile => fail; invalid dto.userId.
+        not ok 1 - should be equal
+          ---
+          at:
+            fileName: test/routes/gql-mutations.test.js
+            lineNumber: 174
+            columnNumber: 7
+            typeName: Test
+          stack: |
+            Test.<anonymous> (test/routes/gql-mutations.test.js:174:7)
+          source: |2
+                });
+          
+                t.ok(errors.length === 1);
+            ------^
+              });
+          ...
+        
+        1..1
+    not ok 5 - Change profile => fail; invalid dto.userId. # time=2.179ms
+      ---
+      at:
+        fileName: test/routes/gql-mutations.test.js
+        lineNumber: 157
+        columnNumber: 11
+        typeName: Test
+      source: |2
+          });
+      
+          await t.test('Change profile => fail; invalid dto.userId.', async (t) => {
+        ----------^
+            const {
+              body: { errors },
+      ...
+    
+    # Subtest: Subs mutations.
+        not ok 1 - should be equal
+          ---
+          at:
+            fileName: test/routes/gql-mutations.test.js
+            lineNumber: 203
+            columnNumber: 7
+            typeName: Test
+          stack: |
+            Test.<anonymous> (test/routes/gql-mutations.test.js:203:7)
+          source: |2
+                const { body: subscribedToUser4 } = await subscribedToUser(app, user4.id);
+          
+                t.ok(!errors);
+            ------^
+                t.ok(subscribedToUser2[0].id === user1.id);
+                t.ok(subscribedToUser4.length === 0);
+          ...
+        
+        ok 2 - should be equal
+        not ok 3 - should be equal
+          ---
+          at:
+            fileName: test/routes/gql-mutations.test.js
+            lineNumber: 205
+            columnNumber: 7
+            typeName: Test
+          stack: |
+            Test.<anonymous> (test/routes/gql-mutations.test.js:205:7)
+          source: |2
+                t.ok(!errors);
+                t.ok(subscribedToUser2[0].id === user1.id);
+                t.ok(subscribedToUser4.length === 0);
+            ------^
+              });
+            });
+          ...
+        
+        1..3
+    not ok 6 - Subs mutations. # time=8.007ms
+      ---
+      at:
+        fileName: test/routes/gql-mutations.test.js
+        lineNumber: 177
+        columnNumber: 11
+        typeName: Test
+      source: |2
+          });
+      
+          await t.test('Subs mutations.', async (t) => {
+        ----------^
+            const { body: user1 } = await createUser(app);
+            const { body: user2 } = await createUser(app);
+      ...
+    
+    1..6
+not ok 1 - gql-mutations # time=364.478ms
+  ---
+  at:
+    fileName: test/routes/gql-mutations.test.js
+    lineNumber: 22
+    columnNumber: 7
+    isToplevel: true
+  source: |
+    } from '../utils/fake.js';
+  
+    await test('gql-mutations', async (t) => {
+    ------^
+      const app = await build(t);
+  ...
+
+1..1

@@ -6,6 +6,10 @@ import { UUIDType } from "../types/uuid.js";
 import { CreatePostInput, ChangePostInput } from "../inputs/postInput.js";
 import { CreateProfileInput, ChangeProfileInput } from "../inputs/profileInput.js";
 import { CreateUserInput, ChangeUserInput } from "../inputs/userInput.js";
+import { userResolver } from "../resolvers/userResolvers.js";
+import { profileResolver } from "../resolvers/profileResolvers.js";
+import { postResolvers } from "../resolvers/postsResolvers.js";
+import { subscribeResolvers } from "../resolvers/subscribeResolvers.js";
 
 export const Mutations = new GraphQLObjectType ({
   name: "Mutations",
@@ -15,21 +19,21 @@ export const Mutations = new GraphQLObjectType ({
       args: {
         input: {type: new GraphQLNonNull(CreateUserInput)}
       },
-      resolve:() => {}
+      resolve: userResolver.createUser
     },
     createProfile: {
       type: new GraphQLNonNull(ProfileType),
       args: {
         input: {type: new GraphQLNonNull(CreateProfileInput)}
       },
-      resolve: () => {}
+      resolve: profileResolver.createProfile
     },
     createPost: {
       type: new GraphQLNonNull(PostType),
       args: {
         input: {type: new GraphQLNonNull(CreatePostInput)}
       },
-      resolve: () => {}
+      resolve: postResolvers.createPost
     },
     changePost: {
       type: new GraphQLNonNull(PostType),
@@ -37,7 +41,7 @@ export const Mutations = new GraphQLObjectType ({
         input: {type: new GraphQLNonNull(ChangePostInput)},
         id: {type: new GraphQLNonNull(UUIDType)}
       },
-      resolve: () => {}
+      resolve: postResolvers.changePost
     },
     changeProfile: {
       type: new GraphQLNonNull(ProfileType),
@@ -45,7 +49,7 @@ export const Mutations = new GraphQLObjectType ({
         input: {type: new GraphQLNonNull(ChangeProfileInput)},
         id: {type: new GraphQLNonNull(UUIDType)}
       },
-      resolve: () => {}
+      resolve: profileResolver.changeProfile
     },
     changeUser: {
       type: new GraphQLNonNull(UserType),
@@ -53,28 +57,28 @@ export const Mutations = new GraphQLObjectType ({
         input: {type: new GraphQLNonNull(ChangeUserInput)},
         id: {type: new GraphQLNonNull(UUIDType)}
       },
-      resolve: () => {}
+      resolve: userResolver.changeUser
     },
     deleteUser: {
       type: new GraphQLNonNull(GraphQLString),
       args: {
          id: {type: new GraphQLNonNull(UUIDType)}
       },
-      resolve: () => {}
+      resolve: userResolver.deleteUser
     },
     deletePost: {
       type: new GraphQLNonNull(GraphQLString),
       args: {
          id: {type: new GraphQLNonNull(UUIDType)}
       },
-      resolve: () => {}
+      resolve: postResolvers.deletePost
     },
     deleteProfile: {
       type: new GraphQLNonNull(GraphQLString),
       args: {
          id: {type: new GraphQLNonNull(UUIDType)}
       },
-      resolve: () => {}
+      resolve: profileResolver.deleteProfile
     },
     subscribeTo: {
       type: new GraphQLNonNull(GraphQLString),
@@ -82,7 +86,7 @@ export const Mutations = new GraphQLObjectType ({
         userId: {type: new GraphQLNonNull(UUIDType)},
         authorId: {type: new GraphQLNonNull(UUIDType)}
       },
-      resolve: () => {}
+      resolve: subscribeResolvers.subscribeTo
     },
     unsubscribeFrom: {
       type: new GraphQLNonNull(GraphQLString),
@@ -90,7 +94,7 @@ export const Mutations = new GraphQLObjectType ({
         userId: {type: new GraphQLNonNull(UUIDType)},
         authorId: {type: new GraphQLNonNull(UUIDType)}
       },
-      resolve: () => {}
+      resolve: subscribeResolvers.unsubscribeFrom
     }
   }
 })
