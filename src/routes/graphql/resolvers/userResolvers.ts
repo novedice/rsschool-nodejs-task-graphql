@@ -17,10 +17,45 @@ export interface argsChangeUserInput {
 
 export const userResolver = {
   users: async (_parent, _args, contextValue: contextType): Promise < User[] > => {
-    return contextValue.prisma.user.findMany()
+    return contextValue.prisma.user.findMany({
+      include: {
+        profile: {
+          include: { memberType: true }
+        },
+        posts: true,
+        subscribedToUser: {
+          include: {
+            subscriber: true
+          }
+        },
+        userSubscribedTo: {
+          include: {
+            author: true
+          }
+        }
+      } 
+  })
   },
   user: async (_parent, args: argsType, contextValue: contextType): Promise < User | null > => {
-    return contextValue.prisma.user.findUnique({ where: { id: args.id } });
+    return contextValue.prisma.user.findUnique({ 
+      where: { id: args.id },
+      include: {
+        profile: {
+          include: { memberType: true }
+        },
+        posts: true,
+        userSubscribedTo: {
+          include: {
+            author: true,
+          }
+        },
+        subscribedToUser: {
+          include: {
+            subscriber: true,
+          }
+        }
+      } 
+    });
   },
   createUser: async (_parent, args: argsCreateUserInput, contextValue: contextType): Promise<User> => {
     return contextValue.prisma.user.create({ data: args.input })
