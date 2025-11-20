@@ -2,7 +2,7 @@ import { Profile } from "@prisma/client";
 import { argsType, contextType } from "../types/contextType.js";
 
 export interface argsCreateProfile {
-  input: {
+  dto: {
     isMale: boolean;
     yearOfBirth: number,
     userId: string,
@@ -11,7 +11,7 @@ export interface argsCreateProfile {
 };
 export interface argsChangeProfile {
   id: string,
-  input: {
+  dto: {
     isMale?: boolean;
     yearOfBirth?: number,
     memberTypeId?: string,
@@ -26,15 +26,16 @@ export const profileResolver = {
     return contextValue.prisma.profile.findUnique({ where: { id: args.id } })
   },
   createProfile: async (_parent, args: argsCreateProfile, contextValue: contextType): Promise<Profile> => {
-    return contextValue.prisma.profile.create({ data: args.input })
+    return contextValue.prisma.profile.create({ data: args.dto })
   },
   changeProfile: async (_parent, args: argsChangeProfile, contextValue: contextType): Promise<Profile> => {
     return contextValue.prisma.profile.update({
-      data: args.input,
+      data: args.dto,
       where: { id: args.id }
     })
   },
   deleteProfile: async (_parent, args: argsType, contextValue: contextType) => {
-    return contextValue.prisma.profile.delete({ where: { id: args.id } })
+    await contextValue.prisma.profile.delete({ where: { id: args.id } })
+    return "OK"
   }
 }

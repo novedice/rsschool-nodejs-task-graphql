@@ -2,14 +2,14 @@ import { Post } from "@prisma/client";
 import { contextType, argsType } from "../types/contextType.js";
 
 export interface argsCreatePost {
-  input: {
+  dto: {
     title: string;
     content: string;
     authorId: string;
   }
 };
 export interface argsChangePost {
-  input: {
+  dto: {
     title?: string;
     content?: string;
   },
@@ -24,15 +24,16 @@ export const postResolvers = {
     return contextValue.prisma.post.findUnique({ where: { id: args.id } });
   },
   createPost: async (_parent, args: argsCreatePost, contextValue: contextType) => {
-    return contextValue.prisma.post.create({ data: args.input })
+    return contextValue.prisma.post.create({ data: args.dto })
   },
   changePost: async (_parent, args: argsChangePost, contextValue: contextType) => {
     return contextValue.prisma.post.update({ 
-      data: args.input,
+      data: args.dto,
       where: { id: args.id }
     })
   },
   deletePost: async (_parent, args: argsType, contextValue: contextType) => {
-    return contextValue.prisma.post.delete({ where: { id: args.id } })
+    await contextValue.prisma.post.delete({ where: { id: args.id } });
+    return "OK"
   }
 }

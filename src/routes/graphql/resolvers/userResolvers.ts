@@ -2,13 +2,13 @@ import { User } from "@prisma/client";
 import { contextType, argsType } from "../types/contextType.js";
 
 export interface argsCreateUserInput {
-  input: {
+  dto: {
     balance: number;
     name: string;
   }
 };
 export interface argsChangeUserInput {
-  input: {
+  dto: {
     balance?: number;
     name?: string;
   },
@@ -58,15 +58,16 @@ export const userResolver = {
     });
   },
   createUser: async (_parent, args: argsCreateUserInput, contextValue: contextType): Promise<User> => {
-    return contextValue.prisma.user.create({ data: args.input })
+    return contextValue.prisma.user.create({ data: args.dto })
   },
   changeUser: async (_parent, args: argsChangeUserInput, contextValue: contextType):  Promise<User> => {
     return contextValue.prisma.user.update({
-      data: args.input,
+      data: args.dto,
       where: { id: args.id }
     })
   },
   deleteUser: async (_parent, args: argsType, contextValue: contextType) => {
-    return contextValue.prisma.user.delete({ where: { id: args.id } })
+      await contextValue.prisma.user.delete({ where: { id: args.id } });
+      return "OK"
   }
 }

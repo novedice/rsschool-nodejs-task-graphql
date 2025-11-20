@@ -17,28 +17,28 @@ export const Mutations = new GraphQLObjectType ({
     createUser: {
       type: new GraphQLNonNull(UserType),
       args: {
-        input: {type: new GraphQLNonNull(CreateUserInput)}
+        dto: {type: new GraphQLNonNull(CreateUserInput)}
       },
       resolve: userResolver.createUser
     },
     createProfile: {
       type: new GraphQLNonNull(ProfileType),
       args: {
-        input: {type: new GraphQLNonNull(CreateProfileInput)}
+        dto: {type: new GraphQLNonNull(CreateProfileInput)}
       },
       resolve: profileResolver.createProfile
     },
     createPost: {
       type: new GraphQLNonNull(PostType),
       args: {
-        input: {type: new GraphQLNonNull(CreatePostInput)}
+        dto: {type: new GraphQLNonNull(CreatePostInput)}
       },
       resolve: postResolvers.createPost
     },
     changePost: {
       type: new GraphQLNonNull(PostType),
       args: {
-        input: {type: new GraphQLNonNull(ChangePostInput)},
+        dto: {type: new GraphQLNonNull(ChangePostInput)},
         id: {type: new GraphQLNonNull(UUIDType)}
       },
       resolve: postResolvers.changePost
@@ -46,7 +46,7 @@ export const Mutations = new GraphQLObjectType ({
     changeProfile: {
       type: new GraphQLNonNull(ProfileType),
       args: {
-        input: {type: new GraphQLNonNull(ChangeProfileInput)},
+        dto: {type: new GraphQLNonNull(ChangeProfileInput)},
         id: {type: new GraphQLNonNull(UUIDType)}
       },
       resolve: profileResolver.changeProfile
@@ -54,7 +54,7 @@ export const Mutations = new GraphQLObjectType ({
     changeUser: {
       type: new GraphQLNonNull(UserType),
       args: {
-        input: {type: new GraphQLNonNull(ChangeUserInput)},
+        dto: {type: new GraphQLNonNull(ChangeUserInput)},
         id: {type: new GraphQLNonNull(UUIDType)}
       },
       resolve: userResolver.changeUser

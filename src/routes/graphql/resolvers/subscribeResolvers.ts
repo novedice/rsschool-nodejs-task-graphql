@@ -7,17 +7,19 @@ interface argsSubscribe {
 
 export const subscribeResolvers = {
   subscribeTo: async (_parent, args: argsSubscribe, contextValue: contextType) => {
-    return contextValue.prisma.subscribersOnAuthors.create({ data: {
+    await contextValue.prisma.subscribersOnAuthors.create({ data: {
       subscriberId: args.userId,
       authorId: args.authorId
-    }})
+    }});
+    return "OK"
   },
   unsubscribeFrom: async (_parent, args: argsSubscribe, contextValue: contextType) => {
-    return contextValue.prisma.subscribersOnAuthors.delete({ where: {
+    await contextValue.prisma.subscribersOnAuthors.delete({ where: {
       subscriberId_authorId: {
         subscriberId: args.userId,
         authorId: args.authorId
     } }
-  })
+  });
+    return "OK"
   }
 }
