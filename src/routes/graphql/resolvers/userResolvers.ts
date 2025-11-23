@@ -16,7 +16,7 @@ export interface argsChangeUserInput {
 }
 
 export const userResolver = {
-  users: async (_parent, _args, contextValue: contextType): Promise < User[] > => {
+  users: async (_parent, _args, contextValue: contextType): Promise < User[] | null > => {
     return contextValue.prisma.user.findMany({
       include: {
         profile: {
@@ -66,7 +66,7 @@ export const userResolver = {
       where: { id: args.id }
     })
   },
-  deleteUser: async (_parent, args: argsType, contextValue: contextType) => {
+  deleteUser: async (_parent, args: argsType, contextValue: contextType): Promise<string>=> {
       await contextValue.prisma.user.delete({ where: { id: args.id } });
       return "OK"
   }

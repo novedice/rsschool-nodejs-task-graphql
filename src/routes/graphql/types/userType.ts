@@ -14,27 +14,64 @@ export const UserType: GraphQLObjectType = new GraphQLObjectType({
     id: { type: new GraphQLNonNull(UUIDType)},
     name: {type: new GraphQLNonNull(GraphQLString)},
     balance: {type: new GraphQLNonNull(GraphQLFloat)},
-    profile: {type: ProfileType},
-    posts: {type: new GraphQLNonNull(new GraphQLList(new GraphQLNonNull(PostType)))},
+    profile: {
+      type: ProfileType,
+      resolve: async(parent: parentInterface, _args, contextValue: contextType) => {
+        return contextValue.loaders.profileLoader.load(parent.id);
+      }
+    },
+    posts: {
+      type: new GraphQLNonNull(new GraphQLList(new GraphQLNonNull(PostType))),
+      resolve: async (parent: parentInterface, _args, contextValue: contextType) => {
+        return contextValue.loaders.postLoader.load(parent.id);
+      }
+    },
     userSubscribedTo: {
       type: new GraphQLNonNull(new GraphQLList(new GraphQLNonNull(UserType))),
       resolve: async (parent: parentInterface, _args, contextValue: contextType) => {
-        const results = await contextValue.prisma.subscribersOnAuthors.findMany({
-          where: { subscriberId: parent.id },
-          include: { author: true }
-        });
-        return results.map(res => res.author);
+        const results = await contextValue.loaders.subscriptionsLoader.load(parent.id);
+        const authorIds = results.filter(res => res.subscriberId === parent.id).map(user => user.authorId);
+        return contextValue.loaders.usersLoader.loadMany(authorIds);
       }
     },
     subscribedToUser: {
       type: new GraphQLNonNull(new GraphQLList(new GraphQLNonNull(UserType))),
-      resolve: async (parent: parentInterface, _args, context: contextType) => {
-        const results = await context.prisma.subscribersOnAuthors.findMany({
-          where: { authorId: parent.id },
-          include: { subscriber: true }
-        });
-        return results.map(res => res.subscriber);
+      resolve: async (parent: parentInterface, _args, contextValue: contextType) => {
+        const results = await contextValue.loaders.subscriptionsLoader.load(parent.id);
+        const subscriberIds = results.filter(res => res.authorId === parent.id).map(user => user.subscriberId);
+        return contextValue.loaders.usersLoader.loadMany(subscriberIds);
       }
     }
   })
 })
+
+// export const UserType: GraphQLObjectType = new GraphQLObjectType({
+//   name: "User",
+//   fields: () => ({
+//     id: { type: new GraphQLNonNull(UUIDType)},
+//     name: {type: new GraphQLNonNull(GraphQLString)},
+//     balance: {type: new GraphQLNonNull(GraphQLFloat)},
+//     profile: {type: ProfileType},
+//     posts: {type: new GraphQLNonNull(new GraphQLList(new GraphQLNonNull(PostType)))},
+//     userSubscribedTo: {
+//       type: new GraphQLNonNull(new GraphQLList(new GraphQLNonNull(UserType))),
+//       resolve: async (parent: parentInterface, _args, contextValue: contextType) => {
+//         const results = await contextValue.prisma.subscribersOnAuthors.findMany({
+//           where: { subscriberId: parent.id },
+//           include: { author: true }
+//         });
+//         return results.map(res => res.author);
+//       }
+//     },
+//     subscribedToUser: {
+//       type: new GraphQLNonNull(new GraphQLList(new GraphQLNonNull(UserType))),
+//       resolve: async (parent: parentInterface, _args, context: contextType) => {
+//         const results = await context.prisma.subscribersOnAuthors.findMany({
+//           where: { authorId: parent.id },
+//           include: { subscriber: true }
+//         });
+//         return results.map(res => res.subscriber);
+//       }
+//     }
+//   })
+// })
