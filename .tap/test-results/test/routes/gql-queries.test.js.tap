@@ -1,0 +1,50 @@
+TAP version 14
+# Subtest: gql-queries
+    # Subtest: Get all resources.
+        ok 1 - should be equal
+        ok 2 - should be equal
+        ok 3 - should be equal
+        ok 4 - should be equal
+        1..4
+    ok 1 - Get all resources. # time=26.201ms
+    
+    # Subtest: Get all resources by their id.
+        ok 1 - should be equal
+        ok 2 - should be equal
+        ok 3 - should be equal
+        ok 4 - should be equal
+        1..4
+    ok 2 - Get all resources by their id. # time=6.017ms
+    
+    # Subtest: Get non-existent resources by their id.
+        ok 1 - should be equal
+        ok 2 - should be equal
+        ok 3 - should be equal
+        ok 4 - should be equal
+        ok 5 - should be equal
+        1..5
+    ok 3 - Get non-existent resources by their id. # time=3.964ms
+    
+    # Subtest: Get user/users with his/their posts, profile, memberType.
+        ok 1 - should be equal
+        ok 2 - should be equal
+        ok 3 - should be equal
+        ok 4 - should be equal
+        ok 5 - should be equivalent
+        1..5
+    ok 4 - Get user/users with his/their posts, profile, memberType. # time=9.313ms
+    
+    # Subtest: Get user by id with his subs.
+        ok 1 - should be equal
+        ok 2 - should be equal
+        ok 3 - should be equal
+        ok 4 - should be equal
+        ok 5 - should be equal
+        ok 6 - should be equal
+        1..6
+    ok 5 - Get user by id with his subs. # time=6.422ms
+    
+    1..5
+ok 1 - gql-queries # time=355.591ms
+
+1..1
