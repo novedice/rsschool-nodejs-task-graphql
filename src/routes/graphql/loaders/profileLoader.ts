@@ -6,7 +6,7 @@ const profileDataLoader = (prisma: PrismaClient) => {
     const profils = await prisma.profile.findMany({ where: {
       userId:  { in: userIds as string [] } 
     },
-    include: {memberType: true}
+    // include: {memberType: true}
   })
     return userIds.map(userId => profils.find(profile => profile.userId === userId) ?? null)
 }

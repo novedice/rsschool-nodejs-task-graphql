@@ -1,4 +1,4 @@
-import { Post, PrismaClient, Profile, SubscribersOnAuthors, User } from "@prisma/client";
+import { MemberType, Post, PrismaClient, Profile, SubscribersOnAuthors, User } from "@prisma/client";
 import DataLoader from "dataloader";
 
 export interface contextType {
@@ -7,7 +7,8 @@ export interface contextType {
     usersLoader: DataLoader<string, User | null>,
     postLoader: DataLoader<string, Post[]>,
     profileLoader: DataLoader<string, Profile | null>,
-    subscriptionsLoader: DataLoader<string, SubscribersOnAuthors [] >
+    subscriptionsLoader: DataLoader<string, SubscribersOnAuthors [] >,
+    memberTypeLoader: DataLoader<string, MemberType>
   }
 };
 
